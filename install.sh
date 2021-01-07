@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Install python3-nautilus
-echo "Installing python3-nautilus...\n"
+echo "Installing python3-nautilus..."
 if type "pacman" > /dev/null 2>&1
 then
     sudo pacman -S --noconfirm python3-nautilus
@@ -12,7 +12,7 @@ then
     then
         sudo apt-get install -y python3-nautilus
     else
-        echo "python3-nautilus is already installed.\n"
+        echo "python3-nautilus is already installed."
     fi
 elif type "dnf" > /dev/null 2>&1
 then
@@ -21,10 +21,10 @@ then
     then
         sudo dnf install -y nautilus-python
     else
-        echo "nautilus-python is already installed.\n"
+        echo "nautilus-python is already installed."
     fi
 else
-    echo "Failed to find python3-nautilus, please install it manually.\n"
+    echo "Failed to find python3-nautilus, please install it manually."
 fi
 
 # Remove previous version and setup folder
