@@ -35,11 +35,11 @@ rm -f ~/.local/share/nautilus-python/extensions/code-nautilus.py
 rm -f ~/.local/share/nautilus-python/extensions/vscodemenu.py
 
 # Download and install the extension
-echo "Downloading newest version...\n"
+echo "Downloading newest version..."
 wget --show-progress -q -O ~/.local/share/nautilus-python/extensions/vscodemenu.py https://raw.githubusercontent.com/meokisama/vscodemenu/master/vscodemenu.py
 
 # Restart nautilus
-echo "Restarting nautilus...\n"
+echo "Restarting nautilus..."
 nautilus -q
 
-echo "Installation Complete\n"
+echo "Installation Complete"
