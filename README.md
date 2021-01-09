@@ -20,6 +20,9 @@
 ## About
 A small repository provides a __Visual Studio Code__ extension to context menu for __Nautilus__.
 
+
+![Demo](demo.png)
+
 ## Instruction
 ### 1. Auto Installation
 Copy and paste the following in your terminal :
